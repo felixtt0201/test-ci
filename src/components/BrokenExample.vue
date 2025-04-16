@@ -11,7 +11,7 @@ export default {
     msg: String,
   },
   mounted() {
-    const example = 123;
+    const example = 123
     const example2 = 123
     console.log(example)
     console.log(example2)
