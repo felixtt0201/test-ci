@@ -62,7 +62,7 @@ yarn fix
 當有程式碼推送至 `main` 分支或建立 Pull Request 時，GitHub Actions 會自動執行以下流程：
 
 1. 安裝專案依賴。
-2. 執行 `yarn check` 進行程式碼檢查。
+2. 執行 `yarn run check` 進行程式碼檢查。
 3. 若檢查未通過，CI 將失敗，阻止不符合規範的程式碼被合併。
 
 ## 📁 專案結構
