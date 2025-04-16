@@ -12,7 +12,7 @@ export default {
   },
   mounted() {
     const example = 123
-    const badExample = 'change test';
+    const badExample = 'change test123'
     console.log(example)
     console.log(badExample)
   },
