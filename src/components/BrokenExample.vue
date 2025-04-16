@@ -12,9 +12,9 @@ export default {
   },
   mounted() {
     const example = 123
-    const example2 = 'change test'
+    const badExample = 'change test';
     console.log(example)
-    console.log(example2)
+    console.log(badExample)
   },
 }
 </script>
