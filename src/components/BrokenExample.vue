@@ -15,6 +15,15 @@ export default {
     const badExample = 'change test123'
     console.log(example)
     console.log(badExample)
+    // const testFuc = () => {
+    //   console.log('test222', test2)
+    // }
+
+    function testFunc() {
+      console.log('testFunc', test2)
+    }
+    testFunc()
+    const test2 = 'test2'
   },
 }
 </script>
