@@ -33,7 +33,7 @@ yarn build
 在提交程式碼前，建議執行以下指令以確保程式碼符合專案規範：
 
 ```bash
-yarn check
+yarn run check
 ```
 
 此指令會依序執行：
@@ -56,6 +56,11 @@ yarn fix
 - 對 `.vue`、`.css`、`.scss` 檔案執行 Stylelint 自動修復。
 
 若檢查未通過，提交將被阻止，確保進入版本控制的程式碼品質。
+
+需要給予 Husky 執行權限：
+```bash
+chmod +x .husky/pre-commit
+```
 
 ## ⚙️ GitHub Actions：持續整合（CI）
 
