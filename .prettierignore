@@ -1,2 +1,6 @@
 dist/
 node_modules/
+.prettierrc
+.stylelintrc.cjs
+.vscode/settings.json
+README.md
