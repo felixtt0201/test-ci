@@ -47,7 +47,10 @@ module.exports = {
     ],
 
     // 限制巢狀結構最多 3 層（例如 if 裡面套 if）
-    'max-depth': ['warn', 3],
+    // 用時 if / while / for / switch
+    'max-depth': ['error', 3],
+    // forEach / map / reduce / filter
+    'max-nested-callbacks': ['error', 3],
 
     // 要求所有 return 要有一致性（例如不能有些分支 return，有些不 return）
     'consistent-return': 'warn',
